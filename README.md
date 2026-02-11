@@ -84,6 +84,29 @@ python main.py
 
 ---
 
+---
+
+## 🛠 Building the Executable
+
+If you want to compile the Python script into a standalone Windows executable with the custom icon, follow these steps:
+
+**Requirements:**
+- PyInstaller: ```pip install pyinstaller```
+- Icon file: ```mainIco.ico``` in the root directory. ( THIS IS REALLY REALLY IMPORTANT )
+
+**Build Command:**
+Run this in your terminal to create a single-file executable named **DesktopWaifu**:
+
+```bash
+pyinstaller --noconsole --onefile --icon=mainIco.ico --name="DesktopWaifu" main.py
+```
+
+* ```--noconsole```: Hides the black terminal window when the app runs.
+* ```--onefile```: Bundles everything into a single .exe.
+* ```--icon```: Sets the custom ```mainIco.ico``` as the application icon.
+
+---
+
 ## 🚀 Quick Start Guide
 
 ### Step 1: Launch
