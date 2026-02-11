@@ -84,8 +84,6 @@ python main.py
 
 ---
 
----
-
 ## 🛠 Building the Executable
 
 If you want to compile the Python script into a standalone Windows executable with the custom icon, follow these steps:
