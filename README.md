@@ -18,7 +18,7 @@
 
 The application is designed to be portable and simple. It looks for a specific folder structure to load your animations.
 
-1.  **Placement**: Place the executable (`DesktopWaifu.exe`) and a folder named `gifs` in the same directory.
+1.  **Placement**: Place the executable (`DesktopWaifu.exe`) and a folder named `gifs` in the same directory. ( Extract DesktopWaifu_v1.0.0.zip )
 2.  **Required File**: Inside the `gifs` folder, there must be a file named `Evernight.gif`.
 3.  **Execution**: When you run the program, it automatically pulls `Evernight.gif` and starts the playback on your desktop.
 
